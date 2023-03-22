@@ -1,0 +1,9 @@
+{% load account %}{% user_display user as user_display %}{% load i18n %}{% autoescape off %}{% blocktrans with site_name=current_site.name site_domain=current_site.domain %}Hello from {{ site_name }}!
+
+Vous recevez cet e-mail parce que l'utilisateur {{ user_display }} a donné la vôtre comme adresse e-mail pour connecter son compte.
+
+Pour confirmer l'exactitude de ces informations, rendez-vous à l'adresse suivante {{ activate_url }}
+{% endblocktrans %}
+{% blocktrans with site_name=current_site.name site_domain=current_site.domain %}Merci de la part de : {{ site_name }}!
+{{ site_domain }}{% endblocktrans %}
+{% endautoescape %}

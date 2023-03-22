@@ -1,0 +1,22 @@
+Bonjour {{ order.full_name }}!
+
+Ceci est une confirmation de votre commande chez Vape Attitude. Vos informations de commande sont ci-dessous:
+
+Numéro de commande: {{ order.order_number }}
+Date de la commande: {{ order.date }}
+
+Commande Total: {{ order.order_total }} DH
+Livraison: {{ order.delivery_cost }} DH
+Grand Total: {{ order.grand_total }} DH
+
+Votre commande sera expédiée à {{ order.street_address1 }} en {{ order.town_or_city }}, {{ order.country }}.
+
+Nous avons enregistré votre numéro de téléphone en tant que {{ order.phone_number }}.
+
+Si vous avez des questions, n'hésitez pas à nous contacter à l'adresse suivante {{ contact_email }}.
+
+Merci d'avoir fait vos achats chez nous!
+
+Sincèrement,
+
+Vape Attitude

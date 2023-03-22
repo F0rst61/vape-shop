@@ -1,0 +1,66 @@
+{% load crispy_forms_tags %}
+
+<div class="my-5">
+    <h1>Reviews</h1>
+
+    {% if reviews %}
+    {% for review in reviews %}
+    <div class="card mb-3">
+        <div class="card-body">
+            <p class="card-text">{{ review.user.username }}'s Review:</p>
+            <p class="card-text">{{ review.text }}</p>
+            {% if user == review.user %}
+            <div class="d-flex justify-content-between align-items-center">
+                <a class="btn btn-danger" href="{% url 'delete_review' product.id review.id %}">Delete</a>
+            </div>
+            {% endif %}
+        </div>
+        <small class="mx-4">Created on: {{ review.created_at|date:'F d, Y' }}</small>
+    </div>
+    {% endfor %}
+
+
+    {% if page_obj.paginator.num_pages > 1 %}
+    <small>Please note that the reviews are paginated</small>
+    <div class="text-center d-flex justify-content-center my-3">
+        <nav aria-label="Reviews pagination" class="mx-auto">
+            <ul class="pagination">
+                {% if page_obj.has_previous %}
+                <li class="page-item">
+                    <a class="page-link" href="?page={{ page_obj.previous_page_number }}">&lt;</a>
+                </li>
+                {% endif %}
+                <li class="page-item active" aria-current="page">
+                    <span class="page-link">
+                        {{ page_obj.number }}/{{ page_obj.paginator.num_pages }}
+                        <span class="sr-only">(current)</span>
+                    </span>
+                </li>
+                {% if page_obj.has_next %}
+                <li class="page-item">
+                    <a class="page-link" href="?page={{ page_obj.next_page_number }}">&gt;</a>
+                </li>
+                {% endif %}
+            </ul>
+        </nav>
+    </div>
+    {% endif %}
+    {% else %}
+    <div class="my-5">
+        <p>This product doesn't have any reviews yet.</p>
+    </div>
+    {% endif %}
+
+    {% if user.is_authenticated %}
+    <form method="post" action="{% url 'add_review' product.id %}">
+        {% csrf_token %}
+        {{ form|crispy }}
+        <div class="form-group">
+            <label for="text">Your Review</label>
+            <textarea class="form-control" id="review-text" name="text" rows="3"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary mb-5">Submit review</button>
+    </form>
+    {% endif %}
+
+</div>

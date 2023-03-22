@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: /accounts/
+Disallow: /bag/
+Disallow: /admin/
+Disallow: /checkout/
+
+Sitemap: https://easyvape.herokuapp.com/sitemap.xml

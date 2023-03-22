@@ -1,0 +1,2 @@
+{% load i18n %}
+{% blocktrans %}Suppression de l'adresse électronique {{email}}.{% endblocktrans %}

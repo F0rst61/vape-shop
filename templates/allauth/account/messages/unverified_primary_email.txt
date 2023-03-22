@@ -1,0 +1,2 @@
+{% load i18n %}
+{% blocktrans %}Votre adresse e-mail principale doit être vérifiée.{% endblocktrans %}

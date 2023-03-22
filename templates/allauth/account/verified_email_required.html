@@ -1,0 +1,26 @@
+{% extends "account/base.html" %}
+
+{% load i18n %}
+
+{% block head_title %}{% trans "Vérifiez votre adresse électronique" %}{% endblock %}
+
+{% block inner_content %}
+<hr>
+<h2 class="logo-font mb-4">{% trans "Vérifiez votre adresse électronique" %}</h2>
+<hr>
+
+{% url 'account_email' as email_url %}
+
+<p>{% blocktrans %}Cette partie du site nous oblige à vérifier que
+    vous êtes bien celui que vous prétendez être. À cette fin, nous vous demandons de
+    vérifier la propriété de votre adresse électronique. {% endblocktrans %}</p>
+
+<p>{% blocktrans %}Nous vous avons envoyé un e-mail pour
+    vérification. Veuillez cliquer sur le lien contenu dans cet e-mail. Si vous ne le recevez pas dans les minutes qui suivent, contactez-nous.
+    si vous ne le recevez pas dans les minutes qui suivent..{% endblocktrans %}</p>
+
+<p>{% blocktrans %}<strong>Remarque:</strong> vous pouvez encore <a href="{{ email_url }}">modifier votre adresse
+    électronique</a>.{% endblocktrans %}</p>
+
+
+{% endblock %}

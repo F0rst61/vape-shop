@@ -1,0 +1,15 @@
+{% extends "account/base.html" %}
+
+{% load i18n %}
+
+{% block head_title %}{% trans "Vérifiez votre adresse électronique" %}{% endblock %}
+
+{% block inner_content %}
+<hr>
+<h2 class="logo-font mb-4">{% trans "Vérifiez votre adresse électronique" %}</h2>
+<hr>
+
+<p>{% blocktrans %}Nous vous avons envoyé un e-mail pour vérification. Suivez le lien fourni pour finaliser la procédure d'inscription.
+    pour finaliser le processus d'inscription. Veuillez nous contacter si vous ne le recevez pas dans les minutes qui suivent.{% endblocktrans %}</p>
+
+{% endblock %}

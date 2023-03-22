@@ -1,0 +1,50 @@
+<div class="collapse navbar-collapse" id="main-nav">
+    <ul class="navbar-nav w-auto mx-auto">
+        <li class="nav-item d-block d-md-none">
+            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="{% url 'home' %}" id="home-link">
+                Accueil
+            </a>
+        </li>
+        <li class="nav-item dropdown">
+            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="all-products-link"
+                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Tous les produits
+            </a>
+            <div class="dropdown-menu border-0" aria-labelledby="all-products-link">
+                <a href="{% url 'products' %}?sort=price&direction=asc" class="dropdown-item">Par prix</a>
+                <a href="{% url 'products' %}?sort=rating&direction=desc" class="dropdown-item ">Par avis</a>
+                <a href="{% url 'products' %}?sort=category&direction=asc" class="dropdown-item ">Par catégorie</a>
+                <a href="{% url 'products' %}" class="dropdown-item">Tous les produits</a>
+            </div>
+        </li>
+
+        <li class="nav-item dropdown">
+            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="vapes-link"
+                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Vapes
+            </a>
+            <div class="dropdown-menu border-0" aria-labelledby="vapes-link">
+                <a href="{% url 'products' %}?category=mods" class="dropdown-item">Les Boxes</a>
+                <a href="{% url 'products' %}?category=pods" class="dropdown-item">Les Pods</a>
+                <a href="{% url 'products' %}?category=mods,pods" class="dropdown-item">Tous les Vapes</a>
+            </div>
+        </li>
+
+        <li class="nav-item dropdown">
+            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="ejuice-link"
+                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                ELiquides
+            </a>
+            <div class="dropdown-menu border-0" aria-labelledby="ejuice-link">
+                <a href="{% url 'products' %}?category=nicotine" class="dropdown-item">Nicotiner</a>
+                <a href="{% url 'products' %}?category=without_nicotine" class="dropdown-item">Sans Nicotine</a>
+                <a href="{% url 'products' %}?category=nicotine,without_nicotine" class="dropdown-item">Nos e-liquides</a>
+            </div>
+        </li>
+
+        <li class="nav-item">
+            <a class="logo-font font-weight-bold nav-link text-black" href="{% url 'contact:contact' %}"
+                id="specials-link">Nous contacter</a>
+        </li>
+    </ul>
+</div>

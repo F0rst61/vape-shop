@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://easyvape.herokuapp.com/</loc>
+  <lastmod>2023-01-15T23:22:19+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://easyvape.herokuapp.com/accounts/signup/</loc>
+  <lastmod>2023-01-15T23:22:19+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://easyvape.herokuapp.com/accounts/login/</loc>
+  <lastmod>2023-01-15T23:22:19+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://easyvape.herokuapp.com/bag/</loc>
+  <lastmod>2023-01-15T23:22:19+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://easyvape.herokuapp.com/products/?sort=price&amp;direction=asc</loc>
+  <lastmod>2023-01-15T23:22:19+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://easyvape.herokuapp.com/products/?sort=rating&amp;direction=desc</loc>
+  <lastmod>2023-01-15T23:22:19+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://easyvape.herokuapp.com/products/?sort=category&amp;direction=asc</loc>
+  <lastmod>2023-01-15T23:22:19+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://easyvape.herokuapp.com/products/</loc>
+  <lastmod>2023-01-15T23:22:19+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://easyvape.herokuapp.com/products/?category=mods</loc>
+  <lastmod>2023-01-15T23:22:19+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://easyvape.herokuapp.com/products/?category=pods</loc>
+  <lastmod>2023-01-15T23:22:19+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://easyvape.herokuapp.com/products/?category=mods,pods</loc>
+  <lastmod>2023-01-15T23:22:19+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://easyvape.herokuapp.com/products/?category=nicotine</loc>
+  <lastmod>2023-01-15T23:22:19+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://easyvape.herokuapp.com/products/?category=without_nicotine</loc>
+  <lastmod>2023-01-15T23:22:19+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://easyvape.herokuapp.com/products/?category=nicotine,without_nicotine</loc>
+  <lastmod>2023-01-15T23:22:19+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://easyvape.herokuapp.com/contact/</loc>
+  <lastmod>2023-01-15T23:22:19+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://easyvape.herokuapp.com/accounts/password/reset/</loc>
+  <lastmod>2023-01-15T23:22:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://easyvape.herokuapp.com/products/4/</loc>
+  <lastmod>2023-01-15T23:22:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://easyvape.herokuapp.com/products/6/</loc>
+  <lastmod>2023-01-15T23:22:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://easyvape.herokuapp.com/accounts/login/?next=/profile/wishlist/add/4/</loc>
+  <lastmod>2023-01-15T23:22:19+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://easyvape.herokuapp.com/accounts/login/?next=/profile/wishlist/add/6/</loc>
+  <lastmod>2023-01-15T23:22:19+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://easyvape.herokuapp.com/accounts/signup/?next=%2Fprofile%2Fwishlist%2Fadd%2F4%2F</loc>
+  <lastmod>2023-01-15T23:22:19+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://easyvape.herokuapp.com/accounts/signup/?next=%2Fprofile%2Fwishlist%2Fadd%2F6%2F</loc>
+  <lastmod>2023-01-15T23:22:19+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://easyvape.herokuapp.com/accounts/login/?next=%2Fprofile%2Fwishlist%2Fadd%2F4%2F</loc>
+  <lastmod>2023-01-15T23:22:19+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://easyvape.herokuapp.com/accounts/login/?next=%2Fprofile%2Fwishlist%2Fadd%2F6%2F</loc>
+  <lastmod>2023-01-15T23:22:19+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+
+
+</urlset>

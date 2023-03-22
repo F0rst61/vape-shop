@@ -1,0 +1,1 @@
+web: gunicorn easy_vape.wsgi:application
